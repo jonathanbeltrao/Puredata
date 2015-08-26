@@ -1,0 +1,304 @@
+#N canvas 453 236 756 429 10;
+#N canvas 0 95 1280 625 knobs 0;
+#X obj 47 100 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 1465 1;
+#X obj 124 100 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 708 1;
+#X obj 207 100 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 2661 1;
+#X obj 292 100 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 2197 1;
+#X obj 47 80 ctlin 9 1;
+#X obj 124 80 ctlin 10 1;
+#X obj 207 80 ctlin 11 1;
+#X obj 292 80 ctlin 12 1;
+#X obj 47 208 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 1416 1;
+#X obj 124 208 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 781 1;
+#X obj 207 208 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 2270 1;
+#X obj 292 208 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 1147 1;
+#X obj 450 104 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 527 104 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 610 104 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 695 104 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 450 210 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 527 210 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 610 209 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 1709 1;
+#X obj 695 210 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 873 103 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 1465 1;
+#X obj 950 103 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 806 1;
+#X obj 1033 103 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 1118 103 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 877 205 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 954 205 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 1037 205 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 1440 1;
+#X obj 1122 205 knob 32 32 0 127 0 0 empty empty empty 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 47 188 ctlin 13 1;
+#X obj 124 188 ctlin 14 1;
+#X obj 207 188 ctlin 15 1;
+#X obj 292 188 ctlin 16 1;
+#X obj 450 84 ctlin 1 3;
+#X obj 527 84 ctlin 2 3;
+#X obj 610 84 ctlin 3 3;
+#X obj 695 84 ctlin 4 3;
+#X obj 450 190 ctlin 5 3;
+#X obj 527 190 ctlin 6 3;
+#X obj 610 190 ctlin 7 3;
+#X obj 695 190 ctlin 8 3;
+#X obj 873 83 ctlin 1 4;
+#X obj 950 83 ctlin 2 4;
+#X obj 1033 83 ctlin 3 4;
+#X obj 1118 83 ctlin 4 4;
+#X obj 877 185 ctlin 5 4;
+#X obj 954 185 ctlin 6 4;
+#X obj 1037 185 ctlin 7 4;
+#X obj 1122 185 ctlin 8 4;
+#X obj 47 153 s k1pg1;
+#X obj 124 153 s k2pg1;
+#X floatatom 61 136 5 0 0 0 - - -;
+#X floatatom 138 136 5 0 0 0 - - -;
+#X floatatom 221 136 5 0 0 0 - - -;
+#X floatatom 306 136 5 0 0 0 - - -;
+#X obj 292 153 s k4pg1;
+#X obj 207 153 s k3pg1;
+#X floatatom 61 243 5 0 0 0 - - -;
+#X floatatom 138 243 5 0 0 0 - - -;
+#X floatatom 221 243 5 0 0 0 - - -;
+#X floatatom 306 243 5 0 0 0 - - -;
+#X floatatom 464 139 5 0 0 0 - - -;
+#X floatatom 541 139 5 0 0 0 - - -;
+#X floatatom 624 139 5 0 0 0 - - -;
+#X floatatom 709 139 5 0 0 0 - - -;
+#X obj 47 260 s k5pg1;
+#X obj 124 259 s k6pg1;
+#X obj 207 260 s k7pg1;
+#X obj 292 259 s k8pg1;
+#X obj 450 156 s k1pg3;
+#X obj 527 155 s k2pg3;
+#X obj 610 156 s k3pg3;
+#X floatatom 464 245 5 0 0 0 - - -;
+#X floatatom 541 245 5 0 0 0 - - -;
+#X floatatom 624 244 5 0 0 0 - - -;
+#X floatatom 709 245 5 0 0 0 - - -;
+#X obj 450 262 s k5pg3;
+#X obj 527 261 s k6pg3;
+#X obj 610 261 s k7pg3;
+#X obj 695 261 s k8pg3;
+#X text 449 44 PROGRAM 3;
+#X text 44 43 PROGRAMS 1 \, 2;
+#X text 875 40 PROGRAM 4;
+#X floatatom 888 137 5 0 0 0 - - -;
+#X floatatom 964 137 5 0 0 0 - - -;
+#X floatatom 1047 137 5 0 0 0 - - -;
+#X floatatom 1132 137 5 0 0 0 - - -;
+#X obj 1118 153 s k4pg4;
+#X obj 695 155 s k4pg3;
+#X obj 874 154 s k1pg4;
+#X obj 950 153 s k2pg4;
+#X obj 1033 154 s k3pg4;
+#X floatatom 891 240 5 0 0 0 - - -;
+#X floatatom 968 240 5 0 0 0 - - -;
+#X floatatom 1051 240 5 0 0 0 - - -;
+#X floatatom 1136 240 5 0 0 0 - - -;
+#X obj 1122 256 s k4pg4;
+#X obj 877 257 s k1pg4;
+#X obj 954 256 s k2pg4;
+#X obj 1037 257 s k3pg4;
+#X text 222 418 Nos PROG 3 e 4 \, tanto os knobs quanto os pads CC
+enviam mensagens de controle com a mesma porta \, ou seja: os pads
+controlam os knobs. Porém os pads 7 e 8 enviam mensagens através
+das portas 8 e 9 \, respectivamente. Assim \, o knob K7 não é controlado
+por nenhum pad \, o knob K8 é controlado pelo PAD7 e o PAD8 não controla
+nenhum knob.;
+#X connect 0 0 50 0;
+#X connect 1 0 51 0;
+#X connect 2 0 52 0;
+#X connect 3 0 53 0;
+#X connect 4 0 0 0;
+#X connect 4 0 48 0;
+#X connect 5 0 1 0;
+#X connect 5 0 49 0;
+#X connect 6 0 2 0;
+#X connect 6 0 55 0;
+#X connect 7 0 3 0;
+#X connect 7 0 54 0;
+#X connect 8 0 56 0;
+#X connect 9 0 57 0;
+#X connect 10 0 58 0;
+#X connect 11 0 59 0;
+#X connect 12 0 60 0;
+#X connect 13 0 61 0;
+#X connect 14 0 62 0;
+#X connect 15 0 63 0;
+#X connect 16 0 71 0;
+#X connect 17 0 72 0;
+#X connect 18 0 73 0;
+#X connect 19 0 74 0;
+#X connect 20 0 82 0;
+#X connect 21 0 83 0;
+#X connect 22 0 84 0;
+#X connect 23 0 85 0;
+#X connect 24 0 91 0;
+#X connect 25 0 92 0;
+#X connect 26 0 93 0;
+#X connect 27 0 94 0;
+#X connect 28 0 8 0;
+#X connect 28 0 64 0;
+#X connect 29 0 9 0;
+#X connect 29 0 65 0;
+#X connect 30 0 10 0;
+#X connect 30 0 66 0;
+#X connect 31 0 11 0;
+#X connect 31 0 67 0;
+#X connect 32 0 12 0;
+#X connect 32 0 68 0;
+#X connect 33 0 13 0;
+#X connect 33 0 69 0;
+#X connect 34 0 14 0;
+#X connect 34 0 70 0;
+#X connect 35 0 15 0;
+#X connect 35 0 87 0;
+#X connect 36 0 16 0;
+#X connect 36 0 75 0;
+#X connect 37 0 17 0;
+#X connect 37 0 76 0;
+#X connect 38 0 18 0;
+#X connect 38 0 77 0;
+#X connect 39 0 19 0;
+#X connect 39 0 78 0;
+#X connect 40 0 20 0;
+#X connect 40 0 88 0;
+#X connect 41 0 21 0;
+#X connect 41 0 89 0;
+#X connect 42 0 22 0;
+#X connect 42 0 90 0;
+#X connect 43 0 23 0;
+#X connect 43 0 86 0;
+#X connect 44 0 24 0;
+#X connect 44 0 96 0;
+#X connect 45 0 25 0;
+#X connect 45 0 97 0;
+#X connect 46 0 26 0;
+#X connect 46 0 98 0;
+#X connect 47 0 27 0;
+#X connect 47 0 95 0;
+#X restore 94 64 pd knobs;
+#N canvas 85 187 976 450 ccpads 0;
+#X obj 123 274 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 123 254 ctlin 1 1;
+#X obj 138 271 s ccpad1;
+#X floatatom 123 347 5 0 0 0 - - -;
+#X obj 202 274 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 202 347 5 0 0 0 - - -;
+#X obj 279 274 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 279 347 5 0 0 0 - - -;
+#X obj 358 274 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 358 347 5 0 0 0 - - -;
+#X obj 123 113 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 123 186 5 0 0 0 - - -;
+#X obj 202 113 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 202 186 5 0 0 0 - - -;
+#X obj 279 113 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 279 186 5 0 0 0 - - -;
+#X obj 358 113 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 358 186 5 0 0 0 - - -;
+#X obj 202 254 ctlin 2 1;
+#X obj 279 254 ctlin 3 1;
+#X obj 358 254 ctlin 4 1;
+#X obj 123 93 ctlin 5 1;
+#X obj 203 93 ctlin 6 1;
+#X obj 279 93 ctlin 7 1;
+#X obj 358 93 ctlin 8 1;
+#X obj 217 271 s ccpad2;
+#X obj 294 271 s ccpad3;
+#X obj 373 271 s ccpad4;
+#X obj 138 110 s ccpad5;
+#X obj 217 110 s ccpad6;
+#X obj 294 110 s ccpad7;
+#X obj 373 110 s ccpad8;
+#X text 122 232 PAD 1;
+#X text 199 232 PAD 2;
+#X text 278 233 PAD 3;
+#X text 359 231 PAD 4;
+#X text 120 72 PAD 5;
+#X text 203 72 PAD 6;
+#X text 278 72 PAD 7;
+#X text 356 71 PAD 8;
+#X obj 568 115 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 568 188 5 0 0 0 - - -;
+#X text 565 67 PAD 8 / PROG 4;
+#X obj 718 96 ctlin 9 4;
+#X obj 718 115 vsl 15 70 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X floatatom 718 188 5 0 0 0 - - -;
+#X text 715 67 PAD 8 / PROG 4;
+#X obj 568 96 ctlin 9 3;
+#X obj 583 112 s ccpad83;
+#X obj 733 112 s ccpad84;
+#X text 586 273 Nos PROG 3 e 4 \, tanto os knobs quanto os pads CC
+enviam mensagens de controle com a mesma porta \, ou seja: os pads
+controlam os knobs. Porém os pads 7 e 8 enviam mensagens através
+das portas 8 e 9 \, respectivamente. Assim \, o knob K7 não é controlado
+por nenhum pad \, o knob K8 é controlado pelo PAD7 e o PAD8 não controla
+nenhum knob.;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 1 0 2 0;
+#X connect 4 0 5 0;
+#X connect 6 0 7 0;
+#X connect 8 0 9 0;
+#X connect 10 0 11 0;
+#X connect 12 0 13 0;
+#X connect 14 0 15 0;
+#X connect 16 0 17 0;
+#X connect 18 0 4 0;
+#X connect 18 0 25 0;
+#X connect 19 0 6 0;
+#X connect 19 0 26 0;
+#X connect 20 0 8 0;
+#X connect 20 0 27 0;
+#X connect 21 0 10 0;
+#X connect 21 0 28 0;
+#X connect 22 0 12 0;
+#X connect 22 0 29 0;
+#X connect 23 0 14 0;
+#X connect 23 0 30 0;
+#X connect 24 0 16 0;
+#X connect 24 0 31 0;
+#X connect 40 0 41 0;
+#X connect 43 0 44 0;
+#X connect 43 0 49 0;
+#X connect 44 0 45 0;
+#X connect 47 0 40 0;
+#X connect 47 0 48 0;
+#X restore 88 91 pd ccpads;
+#X text 157 64 KNOBS (kxpgy);
+#X text 156 91 CONTROL CHANGE PADS (ccpadx);
